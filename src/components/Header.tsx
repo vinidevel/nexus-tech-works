@@ -38,11 +38,11 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center">
-              <span className="text-foreground font-bold text-xl">T</span>
+            <div className="w-11 h-11 bg-rose-50 rounded-lg flex items-center justify-center">
+              <span className="text-blue-950 font-bold text-base">MCV</span>
             </div>
-            <span className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-              TechCorp
+            <span className="text-2xl font-bold bg-rose-50 bg-clip-text text-transparent">
+          Soluções Tech
             </span>
           </div>
 
@@ -59,7 +59,7 @@ const Header = () => {
             ))}
             <Button
               onClick={() => scrollToSection("contato")}
-              className="bg-gradient-primary hover:shadow-glow transition-all duration-300"
+              className=" bg-rose-50 hover:shadow-glow transition-all duration-300"
             >
               Fale Conosco
             </Button>

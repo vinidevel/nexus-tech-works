@@ -32,7 +32,7 @@ const Hero = () => {
 
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
             Transformamos
-            <span className="block bg-gradient-primary bg-clip-text text-transparent animate-float">
+            <span className="block bg-blue-400 bg-clip-text text-transparent animate-float">
               Ideias em Realidade
             </span>
           </h1>
@@ -46,7 +46,7 @@ const Hero = () => {
             <Button
               size="lg"
               onClick={() => scrollToSection("servicos")}
-              className="bg-gradient-primary hover:shadow-glow transition-all duration-300 text-lg px-8 group"
+              className="bg-rose-50 hover:shadow-glow transition-all duration-300 text-lg px-8 group"
             >
               Conheça Nossos Serviços
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
@@ -73,7 +73,7 @@ const Hero = () => {
                 className="text-center animate-fade-in"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
-                <div className="text-3xl md:text-4xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-2">
+                <div className="text-3xl md:text-4xl font-bold bg-rose-50 bg-clip-text text-transparent mb-2">
                   {stat.number}
                 </div>
                 <div className="text-sm text-muted-foreground">{stat.label}</div>
